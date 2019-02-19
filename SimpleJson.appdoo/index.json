@@ -1,0 +1,376 @@
+{
+  "$type" : "Project",
+  "tabBarController" : {
+    "$id" : "TabBarController",
+    "tabBar" : {
+      "$type" : "UITabBar",
+      "position" : {
+        "top" : 519,
+        "left" : 0
+      },
+      "hidden" : false,
+      "frame" : {
+        "origin" : {
+          "x" : 0,
+          "y" : 519
+        },
+        "size" : {
+          "width" : 320,
+          "height" : 49
+        }
+      },
+      "$id" : "UITabBar6007",
+      "barStyle" : 0,
+      "heightIsEditable" : false,
+      "$domain" : "appdoo.iOS",
+      "userInteractionEnabled" : true,
+      "autoresizingMask" : 2,
+      "size" : {
+        "width" : 320,
+        "height" : 49
+      }
+    },
+    "viewControllerIDs" : [
+      "UIViewController1",
+      "UIViewController2"
+    ],
+    "$type" : "UITabBarController",
+    "$domain" : "appdoo.iOS"
+  },
+  "scenes" : [
+    {
+      "$id" : "Screen1",
+      "positionOnOverview" : {
+        "top" : 78,
+        "left" : -441
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "objects" : [
+        {
+          "$type" : "JSONDataSource",
+          "location" : "local",
+          "URLRequest" : {
+            "$type" : "URLRequest",
+            "$domain" : "Core"
+          },
+          "$id" : "JSONDataSource4e181407a01b4e32a3fa48e46f469b05",
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appdoo"
+          },
+          "$domain" : "info.appdoo-mac",
+          "localData" : "[\n    {\n        \"name\": \"Earth\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Earth\",\n    },\n    {\n        \"name\": \"Jupiter\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Jupiter\",\n    },\n    {\n        \"name\": \"Mars\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Mars\",\n    },\n    {\n        \"name\": \"Mercury\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Mercury_(planet)\",\n    },\n    {\n        \"name\": \"Neptune\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Neptune\",\n    },\n    {\n        \"name\": \"Saturn\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Saturn\",\n    },\n    {\n        \"name\": \"Uranus\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Uranus\",\n    },\n    {\n        \"name\": \"Venus\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Venus\",\n    }\n]",
+          "lastCheckWasValid" : false,
+          "name" : "Planets"
+        }
+      ],
+      "viewController" : {
+        "$id" : "UIViewController1",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9436",
+          "title" : "Simple JSON (local)",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Simple JSON (local)",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "UIView6636",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(255,255,255,1.00)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar7703",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Simple JSON (local)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem1"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    },
+    {
+      "$id" : "Screen2",
+      "positionOnOverview" : {
+        "top" : 78,
+        "left" : -1
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : true,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "objects" : [
+        {
+          "$type" : "JSONDataSource",
+          "location" : "remote",
+          "URLRequest" : {
+            "$type" : "URLRequest",
+            "$domain" : "Core"
+          },
+          "$id" : "JSONDataSource81a4215b15d346e2825ea7173b5a9ad7",
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appdoo"
+          },
+          "$domain" : "info.appdoo-mac",
+          "name" : "Planets"
+        }
+      ],
+      "viewController" : {
+        "$id" : "UIViewController2",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9361",
+          "title" : "Simple JSON (remote)",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Simple JSON (remote)",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "UIView6570",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(255,255,255,1.00)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 455
+            }
+          },
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 455
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : true,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "navigationBar" : {
+        "$id" : "UINavigationBar4162",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Simple JSON (remote)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem2"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    }
+  ],
+  "tabBarItemFont" : {
+    "$id" : "UIFont10031",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 10,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "navigationBarFont" : {
+    "$id" : "UIFont10029",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_BOLD_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "$domain" : "appdoo",
+  "metadata" : {
+    "launchImages" : {
+      "phone40" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5380.png"
+      }
+    },
+    "iconImage" : {
+      "$type" : "ImageReference",
+      "$domain" : "appdoo",
+      "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5381.png"
+    },
+    "editorAppearance" : {
+      "fileReferencesNodeIsExpandedInEditorOutline" : true,
+      "inspectorCurrentSegment" : 0,
+      "collapsedNewItemSections" : [
+
+      ],
+      "contentScale" : 1,
+      "historyStack" : [
+        "Screen2",
+        "Screen1",
+        "Screen3",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2"
+      ],
+      "inspectorCollapsedGroups" : [
+        "UILabelShadow",
+        "UIScrollViewInsets",
+        "UITableViewMargin",
+        "UITableViewSeparatorInsets",
+        "FormProcessorEvents",
+        "FormProcessorAdvanced"
+      ],
+      "heightOfNewItemsList" : 373,
+      "inspectorIsVisible" : true,
+      "elementListIsVisible" : true,
+      "globalObjectsNodeIsExpandedInEditorOutline" : true,
+      "historyStackPosition" : 6
+    },
+    "hidesStatusBarOnLaunch" : 0,
+    "editorVersion" : 363,
+    "title" : "SimpleJson",
+    "formatVersion" : 363,
+    "lastObjectID" : 10041,
+    "simulatedSystemVersion" : 7,
+    "supportedInterfaceOrientations" : 6,
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    },
+    "deviceProfile" : "iPhone-Widescreen",
+    "appleAppBundlePrefix" : "",
+    "version" : "1.0",
+    "defaultLanguage" : "en",
+    "targetedDeviceFamily" : "iOS-Universal",
+    "appleAppCategory" : "",
+    "editedObject" : "Screen2",
+    "projectID" : "B9418B00-ED08-4189-8056-1207672F5684-7263-000008D8DD3D6D3E",
+    "companyName" : "MAMPGmbH",
+    "windowFrame" : "285 91 960 640 0 0 1440 878 ",
+    "windowIsFullScreen" : false,
+    "rootInstance" : "TabBarController",
+    "description" : "Tabbed App (iPhone)"
+  }
+}

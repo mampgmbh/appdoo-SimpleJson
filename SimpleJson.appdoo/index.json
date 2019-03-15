@@ -41,8 +41,8 @@
     {
       "$id" : "Screen1",
       "positionOnOverview" : {
-        "top" : 78,
-        "left" : -441
+        "top" : 15,
+        "left" : -170
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -72,8 +72,8 @@
             "$domain" : "appdoo"
           },
           "$domain" : "info.appdoo-mac",
-          "localData" : "[\n    {\n        \"name\": \"Earth\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Earth\",\n    },\n    {\n        \"name\": \"Jupiter\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Jupiter\",\n    },\n    {\n        \"name\": \"Mars\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Mars\",\n    },\n    {\n        \"name\": \"Mercury\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Mercury_(planet)\",\n    },\n    {\n        \"name\": \"Neptune\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Neptune\",\n    },\n    {\n        \"name\": \"Saturn\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Saturn\",\n    },\n    {\n        \"name\": \"Uranus\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Uranus\",\n    },\n    {\n        \"name\": \"Venus\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Venus\",\n    }\n]",
-          "lastCheckWasValid" : false,
+          "localData" : "[\n    {\n        \"name\": \"Earth\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Earth\"\n    },\n    {\n        \"name\": \"Jupiter\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Jupiter\"\n    },\n    {\n        \"name\": \"Mars\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Mars\"\n    },\n    {\n        \"name\": \"Mercury\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Mercury_(planet)\"\n    },\n    {\n        \"name\": \"Neptune\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Neptune\"\n    },\n    {\n        \"name\": \"Saturn\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Saturn\"\n    },\n    {\n        \"name\": \"Uranus\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Uranus\"\n    },\n    {\n        \"name\": \"Venus\",\n        \"wikipedia\": \"https:\/\/en.wikipedia.org\/wiki\/Venus\"\n    }\n]",
+          "lastCheckWasValid" : true,
           "name" : "Planets"
         }
       ],
@@ -88,8 +88,8 @@
         "title" : "Simple JSON (local)",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
-          "scrollLeft" : 0,
           "$id" : "UIView6636",
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -107,6 +107,210 @@
               "height" : 455
             }
           },
+          "subviews" : [
+            {
+              "cellPrototype" : {
+                "isExpandedInEditorOutline" : true,
+                "$id" : "TableViewCellContentViewea7937e409694735bc5642d5203e2e6c",
+                "style" : {
+                  "backgroundColor" : "rgba(255,255,255,0)"
+                },
+                "dataset" : {
+                  "name" : "Earth",
+                  "wikipedia" : "https:\/\/en.wikipedia.org\/wiki\/Earth"
+                },
+                "isPrototype" : true,
+                "frame" : {
+                  "origin" : {
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "size" : {
+                    "width" : 320,
+                    "height" : 44
+                  }
+                },
+                "$domain" : "appdoo.iOS",
+                "position" : {
+                  "top" : 0
+                },
+                "subviews" : [
+                  {
+                    "$id" : "UILabel55cd408f13ca4ad49338361b509a5fff",
+                    "userInteractionEnabled" : true,
+                    "$type" : "UILabel",
+                    "textAlignment" : "",
+                    "frame" : {
+                      "origin" : {
+                        "x" : 15,
+                        "y" : 10
+                      },
+                      "size" : {
+                        "width" : 290,
+                        "height" : 25
+                      }
+                    },
+                    "$domain" : "appdoo.iOS",
+                    "autoresizingMask" : 2,
+                    "position" : {
+                      "top" : 10,
+                      "left" : 15
+                    },
+                    "size" : {
+                      "width" : 290,
+                      "height" : 25
+                    },
+                    "heightIsEditable" : true,
+                    "text" : "Earth",
+                    "hidden" : false,
+                    "bindings" : [
+                      {
+                        "destination" : "JSONDataSource4e181407a01b4e32a3fa48e46f469b05",
+                        "destinationKeyPath" : "name",
+                        "sourceKeyPath" : "text",
+                        "enumerableItemAccess" : true
+                      }
+                    ],
+                    "fontSize" : 17,
+                    "fontName" : "_DEFAULT_BOLD_",
+                    "autoFitWidth" : false,
+                    "fontFamily" : "System"
+                  }
+                ],
+                "$type" : "TableViewCellContentView",
+                "indexPath" : {
+                  "section" : 0,
+                  "item" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 44
+                },
+                "heightIsEditable" : true,
+                "scrollTop" : 0,
+                "hidden" : false,
+                "modalTransitionStyle" : "-1",
+                "userInteractionEnabled" : true,
+                "scrollLeft" : 0
+              },
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "$type" : "UITableView",
+              "insetTop" : 0,
+              "rowHeight" : 44,
+              "pullToRefresh" : true,
+              "separatorInsetLeft" : 15,
+              "$domain" : "appdoo.iOS",
+              "backgroundColor" : "rgb(255,255,255)",
+              "$id" : "UITableView19ca97a3c6ec4d27a3d9eb7e5d16afec",
+              "hidden" : false,
+              "allowsSelection" : true,
+              "transform" : "",
+              "isPreparing" : true,
+              "scrollTop" : 0,
+              "selectable" : false,
+              "isExpandedInEditorOutline" : true,
+              "numberOfStaticSections" : 1,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "insetBottom" : 0,
+              "autoresizingMask" : 18,
+              "usesDefaultSeparatorInsets" : true,
+              "usesDataSource" : true,
+              "totalHeight" : 455,
+              "modalTransitionStyle" : "-1",
+              "dataSourceId" : "JSONDataSource4e181407a01b4e32a3fa48e46f469b05",
+              "scrollLeft" : 0,
+              "staticSections" : [
+                {
+                  "$domain" : "appdoo.iOS",
+                  "staticCells" : [
+                    {
+                      "isExpandedInEditorOutline" : true,
+                      "$id" : "TableViewCellContentView68d01f36696f406c93e145cc9e0eb5a0",
+                      "$type" : "TableViewCellContentView",
+                      "position" : {
+                        "top" : 0,
+                        "left" : 0
+                      },
+                      "frame" : {
+                        "origin" : {
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "size" : {
+                          "width" : 320,
+                          "height" : 44
+                        }
+                      },
+                      "$domain" : "appdoo.iOS",
+                      "autoresizingMask" : 2,
+                      "subviews" : [
+                        {
+                          "layoutMode" : "multiLine",
+                          "position" : {
+                            "top" : 11,
+                            "left" : 15
+                          },
+                          "fontName" : "_DEFAULT_BOLD_",
+                          "$type" : "UILabel",
+                          "frame" : {
+                            "origin" : {
+                              "x" : 15,
+                              "y" : 11
+                            },
+                            "size" : {
+                              "width" : 290,
+                              "height" : 22
+                            }
+                          },
+                          "hidden" : false,
+                          "$id" : "UILabelde412df35b064643ab2a3878b65f2bbf",
+                          "$domain" : "appdoo.iOS",
+                          "heightIsEditable" : true,
+                          "transform" : "",
+                          "textAlignment" : "",
+                          "userInteractionEnabled" : true,
+                          "size" : {
+                            "width" : 290,
+                            "height" : 22
+                          },
+                          "alpha" : 1,
+                          "fontSize" : 17,
+                          "autoresizingMask" : 36,
+                          "fontFamily" : "System",
+                          "autoFitWidth" : false,
+                          "text" : "Row",
+                          "numberOfLines" : 0
+                        }
+                      ],
+                      "transform" : "",
+                      "size" : {
+                        "width" : 320,
+                        "height" : 44
+                      },
+                      "heightIsEditable" : true,
+                      "scrollTop" : 0,
+                      "alpha" : 1,
+                      "hidden" : false,
+                      "modalTransitionStyle" : "-1",
+                      "userInteractionEnabled" : true,
+                      "scrollLeft" : 0
+                    }
+                  ],
+                  "numberOfStaticCells" : 1,
+                  "isExpandedInEditorOutline" : true,
+                  "$type" : "UITableViewSection",
+                  "$id" : "UITableViewSection7fde34e98aa044f2babc2c0f3440ad5d"
+                }
+              ]
+            }
+          ],
           "transform" : "",
           "size" : {
             "width" : 320,
@@ -118,7 +322,7 @@
           "hidden" : false,
           "userInteractionEnabled" : true,
           "name" : "Ansicht",
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -167,8 +371,8 @@
     {
       "$id" : "Screen2",
       "positionOnOverview" : {
-        "top" : 78,
-        "left" : -1
+        "top" : 21,
+        "left" : 272
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
@@ -186,7 +390,8 @@
           "location" : "remote",
           "URLRequest" : {
             "$type" : "URLRequest",
-            "$domain" : "Core"
+            "$domain" : "Core",
+            "URL" : "https:\/\/raw.githubusercontent.com\/mampgmbh\/appdoo-SimpleJson\/master\/Planets.json"
           },
           "$id" : "JSONDataSource81a4215b15d346e2825ea7173b5a9ad7",
           "actionInfo" : {
@@ -198,6 +403,7 @@
             "$domain" : "appdoo"
           },
           "$domain" : "info.appdoo-mac",
+          "lastCheckWasValid" : true,
           "name" : "Planets"
         }
       ],
@@ -231,6 +437,210 @@
               "height" : 455
             }
           },
+          "subviews" : [
+            {
+              "cellPrototype" : {
+                "isExpandedInEditorOutline" : true,
+                "scrollLeft" : 0,
+                "$id" : "TableViewCellContentViewb2bff846b6ea43b9b86d4ff8f40e2b57",
+                "dataset" : {
+                  "name" : "Earth",
+                  "wikipedia" : "https:\/\/en.wikipedia.org\/wiki\/Earth"
+                },
+                "isPrototype" : true,
+                "frame" : {
+                  "origin" : {
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  "size" : {
+                    "width" : 320,
+                    "height" : 44
+                  }
+                },
+                "$domain" : "appdoo.iOS",
+                "position" : {
+                  "top" : 0
+                },
+                "subviews" : [
+                  {
+                    "fontFamily" : "System",
+                    "$id" : "UILabele47c6af5f0fe45a0ab3441b51db6af17",
+                    "bindings" : [
+                      {
+                        "destination" : "JSONDataSource81a4215b15d346e2825ea7173b5a9ad7",
+                        "destinationKeyPath" : "name",
+                        "sourceKeyPath" : "text",
+                        "enumerableItemAccess" : true
+                      }
+                    ],
+                    "textAlignment" : "",
+                    "frame" : {
+                      "origin" : {
+                        "x" : 15,
+                        "y" : 10
+                      },
+                      "size" : {
+                        "width" : 290,
+                        "height" : 25
+                      }
+                    },
+                    "$domain" : "appdoo.iOS",
+                    "autoresizingMask" : 2,
+                    "position" : {
+                      "top" : 10,
+                      "left" : 15
+                    },
+                    "size" : {
+                      "width" : 290,
+                      "height" : 25
+                    },
+                    "heightIsEditable" : true,
+                    "text" : "Earth",
+                    "hidden" : false,
+                    "fontSize" : 17,
+                    "fontName" : "_DEFAULT_BOLD_",
+                    "autoFitWidth" : false,
+                    "userInteractionEnabled" : true,
+                    "$type" : "UILabel"
+                  }
+                ],
+                "style" : {
+                  "backgroundColor" : "rgba(255,255,255,0)"
+                },
+                "indexPath" : {
+                  "section" : 0,
+                  "item" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 44
+                },
+                "heightIsEditable" : true,
+                "scrollTop" : 0,
+                "hidden" : false,
+                "modalTransitionStyle" : "-1",
+                "userInteractionEnabled" : true,
+                "$type" : "TableViewCellContentView"
+              },
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "$type" : "UITableView",
+              "insetTop" : 0,
+              "rowHeight" : 44,
+              "pullToRefresh" : true,
+              "separatorInsetLeft" : 15,
+              "$domain" : "appdoo.iOS",
+              "backgroundColor" : "rgb(255,255,255)",
+              "$id" : "UITableViewc05acfb382784efebdb0824acc253a8b",
+              "hidden" : false,
+              "allowsSelection" : true,
+              "transform" : "",
+              "isPreparing" : true,
+              "scrollTop" : 0,
+              "selectable" : false,
+              "isExpandedInEditorOutline" : true,
+              "numberOfStaticSections" : 1,
+              "size" : {
+                "width" : 320,
+                "height" : 455
+              },
+              "alpha" : 1,
+              "insetBottom" : 0,
+              "autoresizingMask" : 18,
+              "usesDefaultSeparatorInsets" : true,
+              "usesDataSource" : true,
+              "totalHeight" : 455,
+              "modalTransitionStyle" : "-1",
+              "dataSourceId" : "JSONDataSource81a4215b15d346e2825ea7173b5a9ad7",
+              "scrollLeft" : 0,
+              "staticSections" : [
+                {
+                  "$id" : "UITableViewSection51ec92fe9d064ecc9a599b0378dda876",
+                  "staticCells" : [
+                    {
+                      "isExpandedInEditorOutline" : true,
+                      "scrollLeft" : 0,
+                      "$id" : "TableViewCellContentViewc3a946eebbaf44df976688fa0233ed2d",
+                      "position" : {
+                        "top" : 0,
+                        "left" : 0
+                      },
+                      "frame" : {
+                        "origin" : {
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "size" : {
+                          "width" : 320,
+                          "height" : 44
+                        }
+                      },
+                      "$domain" : "appdoo.iOS",
+                      "autoresizingMask" : 2,
+                      "subviews" : [
+                        {
+                          "layoutMode" : "multiLine",
+                          "position" : {
+                            "top" : 11,
+                            "left" : 15
+                          },
+                          "fontName" : "_DEFAULT_BOLD_",
+                          "$type" : "UILabel",
+                          "frame" : {
+                            "origin" : {
+                              "x" : 15,
+                              "y" : 11
+                            },
+                            "size" : {
+                              "width" : 290,
+                              "height" : 22
+                            }
+                          },
+                          "hidden" : false,
+                          "$id" : "UILabele563a2a6de6d4cb89601279f5b3a5094",
+                          "$domain" : "appdoo.iOS",
+                          "heightIsEditable" : true,
+                          "transform" : "",
+                          "textAlignment" : "",
+                          "userInteractionEnabled" : true,
+                          "size" : {
+                            "width" : 290,
+                            "height" : 22
+                          },
+                          "alpha" : 1,
+                          "fontSize" : 17,
+                          "autoresizingMask" : 36,
+                          "fontFamily" : "System",
+                          "autoFitWidth" : false,
+                          "text" : "Row",
+                          "numberOfLines" : 0
+                        }
+                      ],
+                      "transform" : "",
+                      "size" : {
+                        "width" : 320,
+                        "height" : 44
+                      },
+                      "heightIsEditable" : true,
+                      "scrollTop" : 0,
+                      "alpha" : 1,
+                      "hidden" : false,
+                      "modalTransitionStyle" : "-1",
+                      "userInteractionEnabled" : true,
+                      "$type" : "TableViewCellContentView"
+                    }
+                  ],
+                  "numberOfStaticCells" : 1,
+                  "isExpandedInEditorOutline" : true,
+                  "$type" : "UITableViewSection",
+                  "$domain" : "appdoo.iOS"
+                }
+              ]
+            }
+          ],
           "transform" : "",
           "size" : {
             "width" : 320,
@@ -321,7 +731,7 @@
     },
     "editorAppearance" : {
       "fileReferencesNodeIsExpandedInEditorOutline" : true,
-      "inspectorCurrentSegment" : 0,
+      "inspectorCurrentSegment" : 2,
       "collapsedNewItemSections" : [
 
       ],
@@ -333,6 +743,22 @@
         "Screen1",
         "Screen2",
         "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
+        "Screen2",
+        "Screen1",
         "Screen2"
       ],
       "inspectorCollapsedGroups" : [
@@ -341,13 +767,14 @@
         "UITableViewMargin",
         "UITableViewSeparatorInsets",
         "FormProcessorEvents",
-        "FormProcessorAdvanced"
+        "FormProcessorAdvanced",
+        "UILabelAdvanced"
       ],
       "heightOfNewItemsList" : 373,
       "inspectorIsVisible" : true,
       "elementListIsVisible" : true,
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
-      "historyStackPosition" : 6
+      "historyStackPosition" : 22
     },
     "hidesStatusBarOnLaunch" : 0,
     "editorVersion" : 363,
